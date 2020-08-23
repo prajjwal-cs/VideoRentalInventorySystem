@@ -9,6 +9,20 @@ public class Video {
 
     // Methods
 
+    // Non Parameterized Constructor method : It has no parameters
+    public Video() {
+        this.videoName = "Surya namo";
+        this.rating = 4;
+        this.checkOut = false;
+    }
+
+    // Parameterized constructor method : It has some parameters
+    public Video(String videoName, int rating, boolean checkOut) {
+        this.videoName = videoName;
+        this.rating = rating;
+        this.checkOut = checkOut;
+    }
+
     /**
      * This method returns the name of the video.
      *
