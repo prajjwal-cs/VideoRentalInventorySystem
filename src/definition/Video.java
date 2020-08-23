@@ -18,7 +18,7 @@ public class Video {
         return videoName;  // ctrl + shift + k. to push
     }
 
-    public void setVideoName() {
+    public void setVideoName(String videoName) {
         this.videoName = videoName;
     }
 
