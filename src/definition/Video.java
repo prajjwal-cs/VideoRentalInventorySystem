@@ -18,8 +18,19 @@ public class Video {
      *
      * @return The name of the video.
      */
-    public String gatName() {
-        return videoName;
+
+    // We have special methods to take care of that
+    // 1. getter method : It is used to read the value of a private field.
+    // Observer Method / Accessor Method
+    public String getVideoName() {
+        return videoName;  // ctrl + shift + k. to push
     }
 
+    public int getRating() {
+        return rating;
+    }
+
+    public boolean isCheckOut() {
+        return checkOut;
+    }
 }
